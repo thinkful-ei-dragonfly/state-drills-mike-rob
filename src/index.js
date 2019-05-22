@@ -2,14 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import HelloWorld from './HelloWorld';
-import Bomb from './state-drills/Bomb';
+import RouletteGun from './RouletteGun';
 import * as serviceWorker from './serviceWorker';
 // removed import App 
 
 
 // HelloWorld = new HelloWorld();
 
-ReactDOM.render(<Bomb />, document.getElementById('root'));
+
+
+
+ReactDOM.render(<RouletteGun randomNumber={8} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
