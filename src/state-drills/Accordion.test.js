@@ -2,17 +2,11 @@ import renderer from 'react-test-renderer'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Accordion from './Accordion'
-
-import { configure } from 'enzyme';
-import Enzyme from 'enzyme-adapter-react-16'
-
+import './setupTests';
 
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 
-
-
-// configure({ adapter: new Adapter() });
 
 const sectionsProp = [
   {
